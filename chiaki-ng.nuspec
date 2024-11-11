@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>chiaki-ng</id>
+    <version>1.9.1</version>
+    <packageSourceUrl>https://github.com/streetpea/choco-chiaki-ng.git</packageSourceUrl>
+    <owners>Street Pea</owners>
+    <title>chiaki-ng (Install)</title>
+    <authors>Street Pea, Florian Markl, Johannes Baiter, David Rosa</authors>
+    <projectUrl>https://streetpea.github.io/chiaki-ng/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/streetpea/chiaki-ng@main/gui/chiaking.png</iconUrl>
+    <copyright>2022 Street Pea</copyright>
+    <licenseUrl>https://github.com/streetpea/chiaki-ng?tab=AGPL-3.0-1-ov-file#AGPL-3.0-1-ov-file</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/streetpea/chiaki-ng</projectSourceUrl>
+    <docsUrl>https://streetpea.github.io/chiaki-ng/</docsUrl>
+    <bugTrackerUrl>https://github.com/streetpea/chiaki-ng/issues</bugTrackerUrl>
+    <tags>chiaki-ng PlayStation game-streaming</tags>
+    <summary>Open-Source PlayStation Remote Play</summary>
+    <description>
+`chiaki-ng` is an open source PlayStation remote play project serving as the next-generation of Chiaki with improvements and ongoing support now that the original Chiaki project is in maintenance mode only. 
+
+### Information
+
+  - [Search chiaki-ng Documentation](https://streetpea.github.io/chiaki-ng/?q=)
+  - [Discord](https://discord.gg/ZFPvd2vD) / [GitHub](https://github.com/streetpea/chiaki-ng) / [Reddit](https://www.reddit.com/user/Street_Pea_6693/)
+
+### Initial setup
+
+  See https://streetpea.github.io/chiaki-ng/setup/configuration/
+
+### Using a non-PlayStation controller
+
+  See https://streetpea.github.io/chiaki-ng/setup/controlling/#using-a-non-playstation-controller-with-chiaki-ng
+   
+### Remote Connection (with or without port-forwarding)
+
+  See https://streetpea.github.io/chiaki-ng/setup/remoteconnection/
+
+### Commands
+
+Options:
+  -?, -h, --help             Displays help on commandline options.
+  --help-all                 Displays help, including generic Qt options.
+  --profile profile
+  --exit-app-on-stream-exit  Exit the GUI application when the stream session
+                             ends.
+  --registkey registkey
+  --morning morning
+  --fullscreen               Start window in fullscreen mode [maintains aspect
+                             ratio, adds black bars to fill unsused parts of
+                             screen if applicable] (only for use with stream
+                             command).
+  --dualsense                Enable DualSense haptics and adaptive triggers
+                             (PS5 and DualSense connected via USB only).
+  --zoom                     Start window in fullscreen zoomed in to fit screen
+                             [maintains aspect ratio, cutting off edges of image
+                             to fill screen] (only for use with stream command)
+  --stretch                  Start window in fullscreen stretched to fit screen
+                             [distorts aspect ratio to fill screen] (only for
+                             use with stream command).
+  --passcode passcode        Automatically send your PlayStation login passcode
+                             (only affects users with a login passcode set on
+                             their PlayStation console).
+
+Arguments:
+  command                    stream, list
+  nickname                   Needed for stream command to get credentials for
+                             connecting. Use 'list' to get the nickname.
+  host                       Address to connect to (when using the stream
+                             command).
+
+    </description>
+    <releaseNotes>
+      See all - https://streetpea.github.io/chiaki-ng/updates/releases/
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
