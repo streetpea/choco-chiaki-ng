@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/streetpea/chiaki-ng/releases/download/v1.9.4/chiaki-ng-win_x64-VC-installer.exe'
+$url64      = 'https://github.com/streetpea/chiaki-ng/releases/download/v1.9.7/chiaki-ng-win_x64-MSYS2-installer.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'chiaki-ng'
 
-  checksum64    = '5016AA55F2038D78975567E66E0C23A55AB6BDE50804D3901998F7C119065ACF'
+  checksum64    = 'FB258200383E480725D362EC9F263B97BD74ACC905A9EB4626426F36D015522A'
   checksumType64= 'sha256'
 
   silentArgs   = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>chiaki-ng</id>
-    <version>1.9.4</version>
+    <version>1.9.7</version>
     <packageSourceUrl>https://github.com/streetpea/choco-chiaki-ng.git</packageSourceUrl>
     <owners>Street Pea</owners>
     <title>chiaki-ng (Install)</title>
